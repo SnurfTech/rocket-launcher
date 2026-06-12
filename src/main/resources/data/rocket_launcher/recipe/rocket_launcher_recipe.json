@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "a a",
+    "aba",
+    "cda"
+  ],
+  "key": {
+    "a": "minecraft:iron_ingot",
+    "b": "minecraft:piston",
+    "c": "minecraft:stone_button",
+    "d": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "rocket_launcher:rocket_launcher",
+    "count": 1
+  }
+}

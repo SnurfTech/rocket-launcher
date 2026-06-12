@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "gui",
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "rocket_launcher:item/rocket_gui"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "base": "rocket_launcher:item/rocket",
+      "model": {
+        "type": "rocket_launcher:rocket"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "_fv": 85,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:RocketLauncher"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.firework.launch"
+    },
+    "igniteFire": false,
+    "disableGravity": true,
+    "disableDiscarding": false,
+    "power": 2.0,
+    "damage": 10.0,
+    "knockback": 10,
+    "entityModel": "ModelRocket",
+    "customModelTexture": "rocket_projectile_texture.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": {
+      "name": "RocketProjectileProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "RocketProjectileProjectileHitsBlock"
+    },
+    "onHitsEntity": {
+      "name": "RocketProjectileProjectileHitsBlock"
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "mod_elements": [
+    {
+      "name": "RocketLauncher",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/client/renderer/item/RocketLauncherItemRenderer.java",
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/item/RocketLauncherItem.java",
+          "src/main/resources/assets/rocket_launcher_for_minecraft/models/item/rocket_launcher.json",
+          "src/main/resources/assets/rocket_launcher_for_minecraft/items/rocket_launcher.json",
+          "src/main/resources/assets/rocket_launcher_for_minecraft/models/item/rocket_launcher_gui.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_projectile_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/procedures/RocketProjectileProjectileHitsBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketProjectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/entity/RocketProjectileEntity.java",
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/client/renderer/RocketProjectileRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Rocket",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket",
+      "metadata": {
+        "files": [
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/item/RocketItem.java",
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/client/renderer/item/RocketItemRenderer.java",
+          "src/main/resources/assets/rocket_launcher_for_minecraft/models/item/rocket_gui.json",
+          "src/main/resources/assets/rocket_launcher_for_minecraft/items/rocket.json",
+          "src/main/resources/assets/rocket_launcher_for_minecraft/models/item/rocket.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherCanUseRangedItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_can_use_ranged_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/procedures/RocketLauncherCanUseRangedItemProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherRangedItemShootsProjectile",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_ranged_item_shoots_projectile",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/com/snurftech/rocketlauncherforminecraft/procedures/RocketLauncherRangedItemShootsProjectileProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "RocketLauncherRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_launcher_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rocket_launcher_for_minecraft/recipe/rocket_launcher_recipe.json",
+          "src/main/resources/data/rocket_launcher_for_minecraft/advancement/recipes/rocket_launcher_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RocketRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rocket_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rocket_launcher_for_minecraft/recipe/rocket_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.the_ranged_update.rocket_launcher": "Rocket Launcher",
+      "item.the_ranged_update.rocket": "Rocket",
+      "item.rocket_launcher_for_minecraft.rocket_launcher": "Rocket Launcher",
+      "item.rocket_launcher_for_minecraft.rocket": "Rocket"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/com/snurftech/rocketlauncher/init/RocketLauncherForMinecraftModItems.java",
+      "src/main/java/com/snurftech/rocketlauncher/init/RocketLauncherForMinecraftModEntityRenderers.java",
+      "src/main/java/com/snurftech/rocketlauncher/init/RocketLauncherForMinecraftModEntities.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/com/snurftech/rocketlauncher/init/RocketLauncherForMinecraftModTabs.java",
+      "src/main/java/com/snurftech/rocketlauncher/RocketLauncherForMinecraftMod.java",
+      "src/main/java/com/snurftech/rocketlauncher/init/RocketLauncherForMinecraftModModels.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rocket_launcher",
+    "modName": "Rocket Launcher",
+    "version": "1.0.0",
+    "description": "A rocket launcher for Minecraft",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "com.snurftech.rocketlauncher"
+  },
+  "mcreatorVersion": 202600114619
+}

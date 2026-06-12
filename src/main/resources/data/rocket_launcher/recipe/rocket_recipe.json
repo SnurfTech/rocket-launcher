@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": "minecraft:tnt",
+    "b": "minecraft:firework_rocket"
+  },
+  "result": {
+    "id": "rocket_launcher:rocket",
+    "count": 1
+  }
+}

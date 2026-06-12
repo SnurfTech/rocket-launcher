@@ -1,0 +1,7 @@
+{
+  "gui_light": "front",
+  "parent": "builtin/entity",
+  "textures": {
+    "layer0": "rocket_launcher:item/rocket_item_texture"
+  }
+}
